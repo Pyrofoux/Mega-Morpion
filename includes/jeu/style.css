@@ -1,0 +1,62 @@
+
+#big_field {
+  width: 500px;
+  height: 500px;
+  margin: 30px auto 10px auto; }
+
+.small_field {
+  height: 80%;
+  width: 80%;
+  margin: 11% auto; }
+
+.cell {
+  float: left;
+  height: 32%;
+  width: 32%; }
+  .cell.center {
+    border-left: 1px solid #555555;
+    border-right: 1px solid #555555; }
+  .cell.middle {
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555; }
+
+.big_cell.center {
+  border-left: 3px solid #555555;
+  border-right: 3px solid #555555; }
+.big_cell.middle {
+  border-top: 3px solid #555555;
+  border-bottom: 3px solid #555555; }
+
+  .small_cell
+  {
+	padding-top:4px;
+	text-align:center;
+  }
+
+  @keyframes flickerAnimation {
+  0%   { background-color:rgba(255, 255, 51,0); }
+  50%  { background-color:rgba(255, 255, 51,1);  }
+  100% { background-color:rgba(255, 255, 51,0);}
+}
+
+.flick {
+    animation: flickerAnimation 2s infinite;
+	cursor:pointer;
+}
+
+.win1
+{
+	background-color:#ff8080;
+}
+
+.win2
+{
+	background-color:#99ffff;
+}
+
+.win3
+{
+	background-color:#d9d9d9;
+}
+
+
